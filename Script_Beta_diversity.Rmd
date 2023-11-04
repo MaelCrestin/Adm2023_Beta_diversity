@@ -1304,3 +1304,5 @@ mm_aldex_table <- data.frame(mm_aldex@marker_table)
 mm_aldex_table
 ```
 ALDEx2 est beaucoup plus strict et identifie un seul biomarqueur, ASV 27 qui a été identifié par les deux autres méthodes DAA. Les autres n’atteignent pas le seuil FDR utilisé ici ; bien qu’ils aient probablement des tailles d’effet « importantes ». Souvent, si j'envisage d'effectuer des tests DA, j'exécuterai plusieurs modèles et me concentrerai sur l'intersection des OTU données par au moins deux méthodes. Ici, il s'agirait du 10 ASV identifié à l'ANCOM-BC.
+
+Il y a une partie qui ne marche pas c'est un probléme de dimensions, je ne sais pas comment résoudre ce problème "incorect number of dimensions"
